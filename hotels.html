@@ -9,7 +9,7 @@
   <header class="container">
     <nav class="menu_navigation">
       <a href="index.html">
-        <img src="img/logo_hider.svg" width="120" height="50">
+        <img src="../img/logo_hider.svg" width="120" height="50">
       </a>
       <ul class="menu_navigation_class">
         <li><a href="#">Информация</a></li>
@@ -20,31 +20,30 @@
     </nav>
   </header>
   <main class="container">
-    <form action="https://echo.htmlacademy.ru/courses" method="get" oninput="priceoutput.value=price_day.value">
-      <div class="Infrastructure">
+    <form action="https://echo.htmlacademy.ru/courses" method="post" oninput="priceoutput.value=price_day.value">
+      <div class="infrastructure">
         <p>Инфраструктура:</p>
-        <label for="pool"></label>
-        <input type="radio" name="pool" id="pool" value="pool">Бассейн
-        <label for="parking"></label>
-        <input type="radio" name="parking" id="parking" value="parking">Парковка
-        <label for="WI-FI"></label>
-        <input type="radio" name="WI-FI" id="WI-FI" value="WI-FI">WI-FI
+        <label for="pool">Бассейн</label>
+        <input type="radio" checked name="pool" id="pool" value="pool">
+        <label for="parking">Парковка</label>
+        <input type="radio" name="parking" id="parking" value="parking">
+        <label for="WI-FI">WI-FI</label>
+        <input type="radio" name="WI-FI" id="WI-FI" value="WI-FI">
       </div>
-      <div class="Infrastructure">
+      <div class="infrastructure">
         <p>Тип жилья:</p>
-        <label for="hotel"></label>
-        <input type="radio" name="hotel" id="hotel" value="hotel">Бассейн
-        <label for="motel"></label>
-        <input type="radio" name="motel" id="motel" value="motel">Парковка
-        <label for="apartaments"></label>
-        <input type="radio" name="apartaments" id="apartaments" value="apartaments">Апартаменты
+        <label for="hotel">Отель</label>
+        <input type="checkbox" checked name="hotel" id="hotel" value="hotel">
+        <label for="motel">Мотель</label>
+        <input type="checkbox" checked name="motel" id="motel" value="motel">
+        <label for="apartaments">Апартаменты</label>
+        <input type="checkbox" checked name="apartaments" id="apartaments" value="apartaments">
       </div>
     <div class="background_sedona_2">
     </div>
     <div class="price_day">
-      <label for="price_day">Стоимость в сутки (Р)^</label>
-      <input type="range" name="price_day" id="price_day" min="0" max="3000">
-      <output name="priceoutput"></output>
+      <label for="price_day">Стоимость в сутки (Р):</label>
+
     </div>
     <div class="button">
       <input type="submit" value="Показать">
@@ -64,7 +63,7 @@
   <div class="number_of_offers">
     <ul class="catalog_list">
     <li class="catalog">
-      <img src="img/variants_1.jpg" width="130" height="90" alt="Картинка первого отеля в "Седоне"">
+      <img src="../img/variants_1.jpg" width="130" height="90" alt="Картинка первого отеля в "Седоне"">
     <b>Amara resort & spa</b>
     <span>Гостиница</span>
     <span>От 4000 р</span>
@@ -75,7 +74,7 @@
     <span class="raiting">Рейтинг 8.5</span>
 </li>
     <li class="catalog">
-    <img src="img/variants_2.jpg" width="130" height="90" alt="Картинка второго отеля в "Седоне"">
+    <img src="../img/variants_2.jpg" width="130" height="90" alt="Картинка второго отеля в "Седоне"">
   <b>Desert quail inn</b>
   <span>Мотель</span>
   <span>От 3000 р</span>
@@ -85,7 +84,7 @@
 </div>
   <span class="raiting">Рейтинг 8.9</span>
 <li class="catalog">
-  <img src="img/variants_3.jpg" width="130" height="90" alt="Картинка третьего отеля в "Седоне"">
+  <img src="../img/variants_3.jpg" width="130" height="90" alt="Картинка третьего отеля в "Седоне"">
 <b>Villas at poco diablo</b>
 <span>Апартаменты</span>
 <span>От 2000 р</span>
@@ -110,7 +109,7 @@
     </div>
     <div class="contact_site_logo">
       <span>Website by</span>
-      <a href="https://htmlacademy.ru"><img src="img/html_academy.svg" width="100" height="50"></a>
+      <a href="https://htmlacademy.ru"><img src="../img/html_academy.svg" width="100" height="50"></a>
     </div>
   </footer>
 </body>

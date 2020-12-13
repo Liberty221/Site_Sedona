@@ -83,10 +83,18 @@
 </div>
 <div class="info_search_hotel_block">
   <form action="https://echo.htmlacademy.ru/courses" method="post">
-    <label for="arrival_date"></label>
-    <input type="text" name="arrival_date" id="arrival date" placeholder="24 АПРЕЛЯ 2017">
-    <label for="date_of_departure"></label>
+    <label for="arrival_date">ДАТА ЗАЕЗДА:</label>
+    <input type="text" name="arrival_date" id="arrival_date" placeholder="24 АПРЕЛЯ 2017">
+    <label for="date_of_departure">ДАТА ВЫЕЗДА:</label>
     <input type="text" name="date_of_departure" id="date_of_departure" placeholder="4 ИЮЛЯ 2017">
+    <label for="text_field">Взрослые</label>
+    <button type="button"><img src="../img/minus.svg"></button>
+    <input type="text" id="text_field" value="2">
+    <button type="button"><img src="../img/plus.svg"></button>
+    <label for="text_field_2">Дети</label>
+    <button type="button"><img src="../img/minus.svg"></button>
+      <input type="text" id="text_field_2" value="0">
+    <button type="button"><img src="../img/plus.svg"></button>
     <input type="submit" value="Найти">
 </form>
 </div>
@@ -103,7 +111,7 @@
         </div>
         <div class="contact_site_logo">
           <span>Website by</span>
-         <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/html_academy.svg" width="100" height="50"></a>
+          <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/html_academy.svg" width="100" height="50"></a>
         </div>
       </footer>
 </body>

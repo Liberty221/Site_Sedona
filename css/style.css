@@ -9,16 +9,23 @@ body {
   color: #000;
   font-family: "PT Sans", Arial, sans-serif;
 }
-
+.info_search_hotel_block button:nth-child(1),
+.info_search_hotel_block button:nth-child(3) {
+  background-image: url("../img/minus.svg");
+}
+.info_search_hotel_block button:nth-child(2),
+.info_search_hotel_block button:nth-child(4) {
+  background-image: url("../img/plus.svg");
+}
 .fk_contact_logo {
-  background-image: url("img/facebook_icon.svg");
+  background-image: url("../img/facebook_icon.svg");
   background-repeat: no-repeat;
 }
 .tr_contact_logo {
-  background-image: url("img/twitter_icon.svg");
+  background-image: url("../img/twitter_icon.svg");
   background-repeat: no-repeat;
 }
 .yu_contact_logo {
-  background-image: url("img/youtube_icon.svg");
+  background-image: url("../img/youtube_icon.svg");
   background-repeat: no-repeat;
 }

@@ -1,6 +1,7 @@
 :root {
   --color-gray-type1: white;
   --color-gray-type2: #81b3d2;
+  --color-gray-type3: #000000;
 }
 
 body {
@@ -25,7 +26,14 @@ body {
   font-weight: 700;
   font-style: normal;
   line-height: 26px;
-  text-align: center;
+}
+.menu_navigation_class a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-gray-type3);
+}
+.menu_navigation_class li {
+  list-style: none;
 }
 .entry {
   text-align: center;
@@ -43,83 +51,86 @@ body {
   font-size: 14px;
   line-height: 26px;
 }
-.advantages_housing_item:nth-child(1) {
+.advantages_housing_item_1,
+.advantages_tourism_item_1 {
   font-style: normal;
   text-align: center;
   background-color: var(--color-gray-type2);
   line-height: 21px;
+
 }
-.advantages_housing_item:nth-child(1) h2 {
+.advantages_housing_item_1 h2,
+.advantages_tourism_item_1 h2 {
   font-size: 21px;
   font-weight: 700;
+  text-transform: uppercase;
 }
-.advantages_housing_item:nth-child(1) span,
-.advantages_housing_item:nth-child(1) p {
+.advantages_housing_item_1 span,
+.advantages_tourism_item_1 span
+.advantages_housing_item_1 p,
+.advantages_tourism_item_1 p {
   font-size: 14px;
   font-weight: 400;
+  text-transform: uppercase;
 }
-.advantages_housing_item:nth-child(2) {
+.advantages_housing_item_2 {
   background-image: url("../img/advantages_housing_logo_1.svg");
 }
-.advantages_housing_item:nth-child(3) {
+.advantages_housing_item_3 {
   background-image: url("../img/advantages_housing_logo_3.svg");
 }
-.advantages_housing_item:nth-child(4) {
+.advantages_housing_item_4 {
   background-image: url("../img/advantages_housing_logo_2.svg");
 }
-.advantages_housing_item:nth-child(2) b,
-.advantages_housing_item:nth-child(3) b,
-.advantages_housing_item:nth-child(4) b {
+.advantages_housing_item_2 b,
+.advantages_housing_item_3 b,
+.advantages_housing_item_4 b,
+.advantages_tourism_item_2 b,
+.advantages_tourism_item_3 b,
+.advantages_tourism_item_4 b {
   font-weight: 700;
   font-size: 21px;
+  text-transform: uppercase;
 }
-.advantages_housing_item:nth-child(2) p,
-.advantages_housing_item:nth-child(3) p,
-.advantages_housing_item:nth-child(4) p {
-  font-weight: 400;
-  font-size: 14px;
-}
-.advantages_tourism_item:nth-child(1) {
-  font-style: normal;
-  text-align: center;
-  background-color: var(--color-gray-type2);
-  line-height: 21px;
-}
-.advantages_tourism_item:nth-child(1) h2 {
-  font-size: 21px;
-  font-weight: 700;
-}
-.advantages_tourism_item:nth-child(1) span,
-.advantages_tourism_item:nth-child(1) p {
+
+.advantages_housing_item_2 span,
+.advantages_tourism_item_2 span,
+.advantages_housing_item_3 span,
+.advantages_tourism_item_3 span,
+.advantages_housing_item_4 span,
+.advantages_tourism_item_4 span,
+.advantages_housing_item_2 p,
+.advantages_tourism_item_2 p,
+.advantages_housing_item_3 p,
+.advantages_tourism_item_3 p,
+.advantages_housing_item_4 p,
+.advantages_tourism_item_4 p {
   font-size: 14px;
   font-weight: 400;
+  text-transform: uppercase;
 }
-.advantages_tourism_item:nth-child(2) b,
-.advantages_tourism_item:nth-child(3) b,
-.advantages_tourism_item:nth-child(4) b {
-  font-size: 21px;
-  font-weight: 700;
-}
-.advantages_tourism_item:nth-child(2) span,
-.advantages_tourism_item:nth-child(3) span,
-.advantages_tourism_item:nth-child(4) span,
-.advantages_tourism_item:nth-child(2) p,
-.advantages_tourism_item:nth-child(3) p,
-.advantages_tourism_item:nth-child(4) p {
-  font-size: 14px;
-  font-weight: 400;
-}
-.search_hotel strong,
-.search_hotel p {
+
+
+.search_hotel strong {
   font-size: 30px;
   font-weight: 700;
   font-style: normal;
   line-height: 24px;
   text-align: center;
+  text-transform: uppercase;
+}
+.search_hotel p {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
 }
 .search_hotel button span {
   font-size: 21px;
   font-weight: 700;
+  font-style: normal;
   line-height: 26px;
   text-align: center;
 }

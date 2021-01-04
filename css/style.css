@@ -1,8 +1,10 @@
+
 :root {
   --color-gray-type1: white;
   --color-gray-type2: #81b3d2;
   --color-gray-type3: #000000;
 }
+
 
 body {
   min-width: 1200px;
@@ -15,6 +17,7 @@ body {
   color: #000;
   font-family: "PT Sans", Arial, sans-serif;
 }
+
 .container {
   width: 1200px;
   margin-right: auto;
@@ -183,23 +186,4 @@ body {
   line-height: 21px;
   text-align: center;
 }
-.info_search_hotel_block button:nth-child(1),
-.info_search_hotel_block button:nth-child(3) {
-  background-image: url("../img/minus.svg");
-}
-.info_search_hotel_block button:nth-child(2),
-.info_search_hotel_block button:nth-child(4) {
-  background-image: url("../img/plus.svg");
-}
-.fk_contact_logo {
-  background-image: url("../img/facebook_icon.svg");
-  background-repeat: no-repeat;
-}
-.tr_contact_logo {
-  background-image: url("../img/twitter_icon.svg");
-  background-repeat: no-repeat;
-}
-.yu_contact_logo {
-  background-image: url("../img/youtube_icon.svg");
-  background-repeat: no-repeat;
-}
+

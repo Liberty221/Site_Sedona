@@ -1,3 +1,11 @@
+
+:root {
+  --color-gray-type1: white;
+  --color-gray-type2: #81b3d2;
+  --color-gray-type3: #000000;
+}
+
+
 body {
   min-width: 1200px;
   font-size: 14px;
@@ -9,23 +17,173 @@ body {
   color: #000;
   font-family: "PT Sans", Arial, sans-serif;
 }
-.info_search_hotel_block button:nth-child(1),
-.info_search_hotel_block button:nth-child(3) {
-  background-image: url("../img/minus.svg");
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: var(--color-gray-type1);
 }
-.info_search_hotel_block button:nth-child(2),
-.info_search_hotel_block button:nth-child(4) {
-  background-image: url("../img/plus.svg");
+.menu_navigation {
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 26px;
 }
-.fk_contact_logo {
-  background-image: url("../img/facebook_icon.svg");
-  background-repeat: no-repeat;
+.menu_navigation_class a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-gray-type3);
 }
-.tr_contact_logo {
-  background-image: url("../img/twitter_icon.svg");
-  background-repeat: no-repeat;
+.menu_navigation_class li {
+  list-style: none;
 }
-.yu_contact_logo {
-  background-image: url("../img/youtube_icon.svg");
-  background-repeat: no-repeat;
+.entry {
+  text-align: center;
+  text-transform: uppercase;
 }
+
+.entry h1 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 26px;
+}
+.entry p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+}
+.advantages_housing_item_1,
+.advantages_tourism_item_1 {
+  font-style: normal;
+  text-align: center;
+  background-color: var(--color-gray-type2);
+  line-height: 21px;
+
+}
+.advantages_housing_item_1 h2,
+.advantages_tourism_item_1 h2 {
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.advantages_housing_item_1 span,
+.advantages_tourism_item_1 span
+.advantages_housing_item_1 p,
+.advantages_tourism_item_1 p {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.advantages_housing_item_2 {
+  background-image: url("../img/advantages_housing_logo_1.svg");
+}
+.advantages_housing_item_3 {
+  background-image: url("../img/advantages_housing_logo_3.svg");
+}
+.advantages_housing_item_4 {
+  background-image: url("../img/advantages_housing_logo_2.svg");
+}
+.advantages_housing_item_2 b,
+.advantages_housing_item_3 b,
+.advantages_housing_item_4 b,
+.advantages_tourism_item_2 b,
+.advantages_tourism_item_3 b,
+.advantages_tourism_item_4 b {
+  font-weight: 700;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
+.advantages_housing_item_2 span,
+.advantages_tourism_item_2 span,
+.advantages_housing_item_3 span,
+.advantages_tourism_item_3 span,
+.advantages_housing_item_4 span,
+.advantages_tourism_item_4 span,
+.advantages_housing_item_2 p,
+.advantages_tourism_item_2 p,
+.advantages_housing_item_3 p,
+.advantages_tourism_item_3 p,
+.advantages_housing_item_4 p,
+.advantages_tourism_item_4 p {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+
+.search_hotel strong {
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.search_hotel p {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.search_hotel button span {
+  font-size: 21px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 26px;
+  text-align: center;
+}
+.infrastructure p {
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 21px;
+}
+.infrastructure label {
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 21px;
+  font-style: normal;
+}
+.sortings .find_hotels {
+  font-size: 21px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 26px;
+}
+.sortings .name_sort .sorting_list {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  font-style: normal;
+}
+.catalog b {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  font-style: 21px;
+}
+.catalog span {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+.catalog button a {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+.raiting {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+

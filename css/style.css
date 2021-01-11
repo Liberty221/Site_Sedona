@@ -16,7 +16,7 @@ body {
   font-family: "PT Sans", Arial, sans-serif;
 }
 .container {
-  width: 1200px;
+  min-width: 1200px;
   margin-right: auto;
   margin-left: auto;
   background-color: var(--color-gray-type1);
@@ -31,6 +31,13 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--color-gray-type3);
+}
+.menu_navigation_class {
+  display: grid;
+  grid-row-start: 0;
+  grid-row-end: 1200px;
+  grid-column-start: 0;
+  grid-column-end: 50px;
 }
 .menu_navigation_class li {
   list-style: none;

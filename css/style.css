@@ -17,24 +17,23 @@ body {
   font-family: "PT Sans", Arial, sans-serif;
 }
 .container {
-  width: 1200px;
   box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
 }
 header {
+  width: 1200px;
   grid-column: 2/3;
   grid-row: 1/2;
-  box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
 }
 main {
+  width: 1200px;
   grid-column: 2/3;
   grid-row: 2/10;
   background-color: blue;
-  box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
 }
 footer {
+  width: 1200px;
   grid-column: 2/3;
   grid-row: 10/11;
-  box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
 }
 
 .menu_navigation {

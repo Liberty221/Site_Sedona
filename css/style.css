@@ -296,7 +296,7 @@ footer {
 .yu_contact_logo {
    background-image: url("../img/youtube_icon.svg");
    background-repeat: no-repeat;
-   background-position: 50% 70%;
+   background-position: 50% 80%;
 }
 .contact_site_logo {
   grid-column: 3/4;
